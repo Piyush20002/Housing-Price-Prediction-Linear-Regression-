@@ -42,6 +42,7 @@ Model Training: Linear Regression Model was trained using the training dataset.
 Model Prediction:The model was used to predict prices on the test set, and results were compared with actual prices using scatter plots and regression plots.
 
 Model Evaluation:
+
 Calculated performance metrics: Mean Squared Error (MSE): 1,771,751,116,594.04
                                 Root Mean Squared Error (RMSE): 1,331,071.42
                                 R-squared Score: 0.65, indicating that approximately 65% of the variance in housing prices was explained by the model.
