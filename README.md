@@ -10,6 +10,7 @@ Key Concepts and Challenges:
 5. Model Evaluation: Evaluate the model's performance on a separate test dataset using metrics such as Mean Squared Error or R-squared. 
 6. Visualization: Create visualizations to illustrate the relationship between the predicted and actual values. 
 
+
 Project Summary: Housing Price Prediction (Linear Regression)
 
 Objective:
