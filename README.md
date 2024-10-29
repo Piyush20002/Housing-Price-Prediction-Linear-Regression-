@@ -11,6 +11,7 @@ Key Concepts and Challenges:
 6. Visualization: Create visualizations to illustrate the relationship between the predicted and actual values. 
 
 
+
 Project Summary: Housing Price Prediction (Linear Regression)
 
 Objective:
@@ -47,6 +48,7 @@ Calculated performance metrics:Mean Squared Error (MSE): 1,771,751,116,594.04
                                Root Mean Squared Error (RMSE): 1,331,071.42
                                R-squared Score: 0.65, indicating that approximately 65% of the variance in housing prices was explained by the model.
 
+
 Key Insights
 
 Feature Importance:The features with the most significant impact on housing prices were:
@@ -64,4 +66,5 @@ Model Performance:The R-squared value of 0.65 suggests the model captures a dece
 Distribution of Prices:The histogram of housing prices indicated a right-skewed distribution, which is common in housing datasets, where a few houses have significantly higher prices than the majority.
 
 Conclusion
+
 The linear regression model successfully predicted housing prices based on several features, providing valuable insights into which characteristics of houses most influence their market value. Further enhancements could include experimenting with advanced regression techniques or integrating more predictive variables to improve accuracy.
