@@ -6,7 +6,7 @@ Key Concepts and Challenges:
 1. Data Collection: Obtain a dataset with numerical features and a target variable for prediction. 
 2. Data Exploration and Cleaning: Explore the dataset to understand its structure, handle missing values, and ensure data quality. 
 3. Feature Selection: Identify relevant features that may contribute to the predictive model. 
-4.Model Training: Implement linear regression using a machine learning library (e.g., ScikitLearn). 
+4. Model Training: Implement linear regression using a machine learning library (e.g., ScikitLearn). 
 5. Model Evaluation: Evaluate the model's performance on a separate test dataset using metrics such as Mean Squared Error or R-squared. 
 6. Visualization: Create visualizations to illustrate the relationship between the predicted and actual values. 
 
@@ -19,49 +19,40 @@ Objective:
 The primary objective of this project was to predict housing prices based on various features of the houses, such as area, number of bedrooms, bathrooms, and other amenities.
 
 Process Overview
-Data Loading and Exploration:
 
-The dataset was loaded from a CSV file containing 545 entries with 13 features related to housing.
+Data Loading and Exploration: The dataset was loaded from a CSV file containing 545 entries with 13 features related to housing.
 Key columns included price, area, bedrooms, bathrooms, and several categorical variables like mainroad, guestroom, basement, etc.
-Data Cleaning:
 
+Data Cleaning:
 Missing Values: Checked for missing values, confirming there were none.
 Outlier Detection: Used box plots and the Interquartile Range (IQR) method to identify outliers in the price variable. Detected outliers were printed for further inspection.
 Feature Selection: Selected relevant features for analysis and model training, focusing on both numerical and categorical data.
-Data Transformation:
 
+Data Transformation:
 Categorical variables were converted into numeric format using Label Encoding to prepare for model training.
 Summary statistics and correlation matrices were generated to understand the relationships between features.
+
 Data Splitting:
-
 The dataset was split into training (80%) and testing (20%) subsets to evaluate model performance.
-
 Model Training: Linear Regression Model was trained using the training dataset.
-                Coefficients for each feature were calculated, indicating their impact on the housing price.
+Coefficients for each feature were calculated, indicating their impact on the housing price.
 
-Model Prediction:The model was used to predict prices on the test set, and results were compared with actual prices using scatter plots and regression plots.
+Model Prediction: The model was used to predict prices on the test set, and results were compared with actual prices using scatter plots and regression plots.
 
 Model Evaluation:
 
 Calculated performance metrics: Mean Squared Error (MSE): 1,771,751,116,594.04
-
 Root Mean Squared Error (RMSE): 1,331,071.42
-
 R-squared Score: 0.65, indicating that approximately 65% of the variance in housing prices was explained by the model.
-
 
 Key Insights
 
-Feature Importance: The features with the most significant impact on housing prices were:
-
+Feature Importance: 
+The features with the most significant impact on housing prices were:
 Bathrooms: Coefficient = 1,097,117 (highest positive impact)
-
 Air Conditioning: Coefficient = 785,550
-
 Hot Water Heating: Coefficient = 687,881
-
 Preferred Area: Coefficient = 629,901
-
 Stories: Coefficient = 406,223
 
 The Furnishing Status had a negative coefficient (-210,397), suggesting that unfurnished homes might decrease price, as opposed to furnished or semi-furnished options.
