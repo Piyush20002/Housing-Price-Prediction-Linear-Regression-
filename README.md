@@ -51,18 +51,12 @@ Calculated performance metrics: Mean Squared Error (MSE): 1,771,751,116,594.04
 Key Insights
 
 Feature Importance: The features with the most significant impact on housing prices were:
-
-                    Bathrooms: Coefficient = 1,097,117 (highest positive impact)
-                    
-                    Air Conditioning: Coefficient = 785,550
-                    
-                    Hot Water Heating: Coefficient = 687,881
-                    
-                    Preferred Area: Coefficient = 629,901
-
-                    Stories: Coefficient = 406,223
-                    
-                    The Furnishing Status had a negative coefficient (-210,397), suggesting that unfurnished homes might decrease price, as opposed to furnished or semi-furnished options.
+Bathrooms: Coefficient = 1,097,117 (highest positive impact)
+Air Conditioning: Coefficient = 785,550
+Hot Water Heating: Coefficient = 687,881
+Preferred Area: Coefficient = 629,901
+Stories: Coefficient = 406,223
+The Furnishing Status had a negative coefficient (-210,397), suggesting that unfurnished homes might decrease price, as opposed to furnished or semi-furnished options.
 
 Correlation Analysis: The correlation matrix indicated strong relationships between several features and the target variable (price). For instance, the number of bathrooms and the presence of air conditioning had strong positive correlations with housing prices.
 
