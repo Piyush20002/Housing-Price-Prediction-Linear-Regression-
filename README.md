@@ -33,5 +33,5 @@ Split the dataset into training and testing sets (80-20 split).
 Trained a linear regression model on the training set.
 Model Evaluation:
 
-Calculated performance metrics (MSE, RMSE, and R² score).
+Calculated performance metrics.
 Visualized the relationship between actual and predicted prices using scatter plots and regression plots.
